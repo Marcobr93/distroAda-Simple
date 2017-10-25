@@ -7,15 +7,15 @@ $id = $_REQUEST['id'];
 $errors = [];
 if( !empty($_POST) ){
     // Recibo los datos del formulario
-    $nombre = $_POST['nombre'] ?? $data['nombre'];
-    $ostype = $_POST['ostype'] ?? $data['ostype'];
-    $basado = $_POST['basado'] ?? $data['basado'];
-    $origen = $_POST['origen'] ?? $data['origen'];
-    $arquitectura = $_POST['arquitectura'] ?? $data['arquitectura'];
-    $escritorio = $_POST['escritorio'] ?? $data['escritorio'];
-    $categoria = $_POST['categoria'] ?? $data['categoria'];
-    $estado = $_POST['estado'] ?? $data['estado'];
-    $popularidad = $_POST['popularidad'] ?? $data['popularidad'];
+    $nombre = $_POST['nombre'];
+    $ostype = $_POST['ostype'];
+    $basado = $_POST['basado'];
+    $origen = $_POST['origen'];
+    $arquitectura = $_POST['arquitectura'];
+    $escritorio = $_POST['escritorio'];
+    $categoria = $_POST['categoria'];
+    $estado = $_POST['estado'];
+    $popularidad = $_POST['popularidad'];
     $id = $_POST['id'];
 
     if ( empty($errors) ) {
